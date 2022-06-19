@@ -1,1 +1,10 @@
-ktrain
+##dependencies
+tqdm
+dvc
+pandas
+numpy
+pyYAML
+mkdocs-material
+###Local Packages - 
+# -e . # << uncomment this to install from setup.py>>
+

@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 
-REPO_NAME = "OpenCV_Basic"
+REPO_NAME = "DVC_Pruject_MKDocs_Project_Template"
 SRC_REPO = "src"
 AUTHOR_USER_NAME = "Asif-AI"
 LIST_OF_REQUIREMENTS = []
@@ -14,7 +14,7 @@ setup(
     name=SRC_REPO,
     version="0.0.1",
     author=AUTHOR_USER_NAME,
-    description="A small package for MLflow app",
+    description="DVC and MKDocs Project",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
